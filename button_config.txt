@@ -1,0 +1,27 @@
+# Button Configuration File
+
+# This file contains the configuration details for the button that will trigger the Zapier automation.
+
+# Button Type
+# Specify the type of button you are using. This could be a physical button like a Flic or a virtual button in an app that integrates with Zapier.
+button_type = "Flic"
+
+# Button Setup
+# Follow the manufacturer’s instructions to set up your button. Make sure it is connected to your device and functioning properly.
+button_setup = "Follow manufacturer's instructions"
+
+# Button-Zapier Integration
+# Connect your button to Zapier. This will allow the button press to trigger the Zapier automation.
+button_zapier_integration = "Follow manufacturer's instructions and Zapier's guide to connect the button to Zapier"
+
+# Button Press
+# Define what a button press will do. In this case, a button press will trigger the creation of a new customer support ticket.
+button_press_action = "Trigger Zapier automation to create a new customer support ticket"
+
+# Button User Tagging
+# Optionally, you can set up the button to tag the user who pressed it. This can be useful for follow-up purposes.
+button_user_tagging = "Optional: Set up user tagging following manufacturer's instructions and Zapier's guide"
+
+# Test Button
+# Test the button to ensure it is working properly and is correctly integrated with Zapier.
+button_test = "Press the button to test the setup. Check if the Zapier automation is triggered and a new ticket is created in the customer support system."

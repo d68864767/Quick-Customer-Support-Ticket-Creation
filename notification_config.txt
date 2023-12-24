@@ -1,0 +1,27 @@
+# Notification Configuration File
+
+# This file contains the configuration details for the notifications that will be sent when a new ticket is created.
+
+# Notification Trigger
+# Specify the trigger for the notification. In this case, the trigger is the creation of a new ticket.
+notification_trigger = "New ticket creation"
+
+# Notification Action
+# Define the action that will be performed when the notification is triggered. In this case, the action is the sending of a notification.
+notification_action = "Send a notification to a designated team member or channel"
+
+# Notification Recipient
+# Specify the recipient of the notification. This could be a support manager's email, a Slack channel, etc.
+notification_recipient = "Specify the recipient of the notification"
+
+# Notification Message
+# Define the message that will be sent in the notification. This could include the ticket details, the user who created the ticket, etc.
+notification_message = "Specify the message that will be sent in the notification"
+
+# Zap-Notification Integration
+# Connect the Zap to the notification. This will allow the creation of a new ticket to trigger the notification.
+zap_notification_integration = "Follow Zapier's guide to connect the Zap to the notification"
+
+# Test Notification
+# Test the notification to ensure it is working properly and is correctly integrated with the Zap.
+notification_test = "Trigger the notification by creating a new ticket. Check if the notification is sent to the correct recipient with the correct message."

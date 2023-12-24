@@ -1,0 +1,33 @@
+# Zap Configuration File
+
+# This file contains the configuration details for the Zapier automation that will be triggered by the button press.
+
+# Zap Trigger
+# Specify the trigger for the Zap. In this case, the trigger is a button press.
+zap_trigger = "Button press"
+
+# Zap Action
+# Define the action that will be performed when the Zap is triggered. In this case, the action is the creation of a new customer support ticket.
+zap_action = "Create a new customer support ticket in the customer support system"
+
+# Customer Support System
+# Specify the customer support system where the ticket will be created. This could be Zendesk, Freshdesk, Salesforce, etc.
+customer_support_system = "Zendesk"
+
+# Ticket Details
+# Define the details of the ticket that will be created. This includes the issue type, urgency level, and any standard instructions.
+ticket_issue_type = "Specify the issue type"
+ticket_urgency_level = "Specify the urgency level"
+ticket_standard_instructions = "Specify any standard instructions"
+
+# User Tagging
+# If the button is set up to tag the user who pressed it, specify how this information will be included in the ticket.
+user_tagging = "If applicable, specify how the user who pressed the button will be tagged in the ticket"
+
+# Zap-Button Integration
+# Connect the Zap to the button. This will allow the button press to trigger the Zapier automation.
+zap_button_integration = "Follow Zapier's guide to connect the Zap to the button"
+
+# Test Zap
+# Test the Zap to ensure it is working properly and is correctly integrated with the button.
+zap_test = "Trigger the Zap by pressing the button. Check if a new ticket is created in the customer support system with the correct details."

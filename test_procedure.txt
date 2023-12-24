@@ -1,0 +1,31 @@
+# Test Procedure File
+
+# This file contains the steps to test the entire setup including the button, Zapier automation, and the notification system.
+
+# Step 1: Test Button
+# Press the button to test the setup. Check if the Zapier automation is triggered and a new ticket is created in the customer support system.
+test_button = "Press the button to test the setup. Check if the Zapier automation is triggered and a new ticket is created in the customer support system."
+
+# Step 2: Test Zap
+# Trigger the Zap by pressing the button. Check if a new ticket is created in the customer support system with the correct details.
+test_zap = "Trigger the Zap by pressing the button. Check if a new ticket is created in the customer support system with the correct details."
+
+# Step 3: Test Notification
+# Trigger the notification by creating a new ticket. Check if the notification is sent to the correct recipient with the correct message.
+test_notification = "Trigger the notification by creating a new ticket. Check if the notification is sent to the correct recipient with the correct message."
+
+# Step 4: Test User Tagging (Optional)
+# If the button is set up to tag the user who pressed it, check if this information is correctly included in the ticket.
+test_user_tagging = "If applicable, press the button and check if the user who pressed the button is correctly tagged in the ticket."
+
+# Step 5: Test Ticket Details
+# Check if the ticket created has the correct issue type, urgency level, and any standard instructions.
+test_ticket_details = "Press the button and check if the ticket created has the correct issue type, urgency level, and any standard instructions."
+
+# Step 6: Repeat Testing
+# Repeat the testing process a few times to ensure consistency and reliability.
+repeat_testing = "Repeat the testing process a few times to ensure consistency and reliability."
+
+# Step 7: Troubleshooting
+# If any issues are encountered during testing, refer to the respective configuration files and guides for troubleshooting.
+troubleshooting = "If any issues are encountered during testing, refer to the respective configuration files and guides for troubleshooting."
